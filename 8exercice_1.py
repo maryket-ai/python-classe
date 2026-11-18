@@ -5,4 +5,7 @@ etudiant = {
     "moyenne": 14.7, 
 } 
 
-print(f'{etudiant["nom"]<6}, {etudiant["age"]>5}, {etudiant["filiere"]>10} : {etudiant["moyenne"]>15}')
+print(f"Nom : {etudiant['nom']}")
+print(f"Age : {etudiant['age']} ans")
+print(f"Filière : {etudiant['filiere']}")
+print(f"Moyenne : {etudiant['moyenne']}")
